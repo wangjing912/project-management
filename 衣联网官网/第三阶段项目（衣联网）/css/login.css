@@ -1,0 +1,300 @@
+body{
+	background: #fff;
+}
+
+/*导航栏顶部*/
+header #top{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	background-color: #fff;
+	/*border:1px red solid;*/
+}
+header #top #left{
+	float: left;
+}
+header #top #left #hello{
+	margin-left: 70px;
+}
+header #top #left span{
+	margin-left: 15px;
+	line-height: 30px;
+	font-size: 12px;
+	/*border:1px red solid;*/
+	/*font-weight: bold;*/
+	color: #666666;
+}
+header #top #left a,header #top #right a{
+	text-decoration: none;
+	color: #666666;
+
+}
+
+header #top #left a:hover,header #top #right a:hover{
+	color: red;
+}
+header #top #right{
+	height: 30px;
+	float: right;
+	margin-right: 30px;
+	/*border:1px blue solid;*/
+}
+header #top #right ul li{
+	float: left;
+	/*width: 75px;*/
+	margin-right: 40px;
+	list-style: none;
+	line-height: 30px;
+	font-size: 12px;
+	/*border: 1px red solid;*/
+}
+header #top #right ul li img{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+/*我的衣联*/
+header #top #mycloth{
+	position: absolute;
+	right: 580px;
+	top: 30px;
+	width: 80px;
+	height: 160px;
+	background-color: #fff;
+	line-height: 20px;
+	display: none;
+	/*border: 1px red solid;*/
+
+}
+header #top #mycloth h6 a{
+	color: black;
+	padding-left: 8px;
+	margin-top: 10px;
+}
+header #top #mycloth a{
+	display: block;
+	padding-left: 8px;
+	font-size: 12px;
+}
+/*我的收藏*/
+header #top #collect{
+	position: absolute;
+	right: 345px;
+	top: 30px;
+	width: 80px;
+	height: 80px;
+	display: none;
+	background-color: #fff;
+	/*border:1px red solid;*/
+}
+header #top #collect ul{
+	margin-top: 10px; 
+}
+header #top #collect ul li{
+	margin-top: 5px; 
+}
+header #top #collect ul li a{
+	font-size: 12px;
+	padding-left: 7px;
+}
+
+
+/*logo*/
+.logo{
+	width: 1250px;
+	height: 70px;
+	margin: 10px auto;
+	/*border: 1px red solid;*/
+}
+
+/*中间部分*/
+#loginbox{
+	width: 1200px;
+	height:500px;
+	/*border: 1px red solid;*/
+	margin: 0 auto;
+
+}
+#loginpic{
+	float: left;
+	margin-top: 80px;
+	margin-left:20px; 
+	
+}
+#login{
+	float: right;
+	margin-right: 100px; 
+	margin-top:20px; 
+	width: 370px;
+	height: 380px;
+	border: 1px #EDEDED solid;
+}
+#loginmethd{
+	width: 80%;
+	height: 55px;
+	margin: 10px auto;
+	border-bottom: 2px #D4D4D4 solid;
+
+}
+#pwdmethed,#nopwdmethed{
+	width: 148px;
+	height: 55px;
+	float: left;
+	/*border: 1px red solid;*/
+	line-height: 55px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	cursor: pointer;
+
+}
+#pwdmethed{
+	color: #CF1F3F;
+	border-bottom: 2px #CF1F3F solid;
+
+}
+
+#myform{
+	/*border: 1px black solid;*/
+	position: relative;
+}
+#pwdmethedstyle{
+	/*display: none;*/
+	/*border: 1px red solid;*/
+	/*display: none;*/
+}
+#nopwdmethedstyle{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 155px;
+	/*border: 1px green solid;*/
+	display: none;
+}
+#username,#password{
+	/*position: relative;*/
+	padding-left:25px; 
+	width: 80%;
+	height:40px;
+	margin-top: 30px; 
+	margin-left: 38px; 
+	background: #F8F8F8;
+	border: none; 
+	outline-color: #999;
+
+}
+#nopwdmethedstyle #username,#nopwdmethedstyle #password{
+	padding-left:15px;
+	color: #666;
+}
+#nopwdmethedstyle #username{
+	width: 202px;
+}
+#code{
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	float: right;
+	width: 95px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #F1F1F1;
+	color: #666;
+}
+#checkbox{
+	width: 15px;
+	height: 15px;
+	margin: 20px 5px 0 38px;
+	vertical-align: bottom;
+	/*color: red;*/
+	
+}
+#pwdmethedstyle>em{
+	font-style: normal;
+	color: #666;
+}
+#pwdmethedstyle #span1{
+	position: absolute;
+	left: 55px;
+	top: 10px;
+}
+#pwdmethedstyle #span2{
+	position: absolute;
+	left: 55px;
+	top: 10px;
+}
+
+#login form #pwdmethedstyle>a{
+	display: block;
+	float: right;
+	margin-right:30px;
+	margin-top:-15px;  
+}
+#login p{
+	position: relative;
+}
+#pwdmethedstyle i{
+	position: absolute;
+	left: 42px;
+	top: 43px;
+	width: 16px;
+	height: 16px;
+	z-index: 10;
+	/*border: 1px red solid;*/
+}
+#pwdmethedstyle #p1 i{
+
+	background: url(../img/login_icon_n.png) no-repeat 0 0;
+}
+#pwdmethedstyle #p2 #lock{
+	/*z-index: 10;*/
+	background: url(../img/login_icon_n.png) no-repeat 0 -17px;
+}
+#fixd{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 165px;
+	/*border: 1px red solid;*/
+	/*display: none;*/
+}
+#loginbutton{
+	margin-left: 38px; 
+	margin-top: 20px;
+	/*width: 80%;*/
+	width: 320px;
+	height: 40px;
+	font-size: 18px;
+	background: #CF1F3F;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	color: #fff;
+
+}
+#txt{
+	width: 296px;
+	height: 50px;
+	margin: 20px auto;
+	/*border: 1px red solid;*/
+	color: #969696;
+}
+#txt p{
+
+	margin-bottom: 10px; 
+}
+#regist{
+	float: right;
+}
+
+#nopwdmethedstyle #p1 span{
+	position: absolute;
+	left: 38px;
+	top: 100px;
+
+}
+
+#pwdmethedstyle span .error{
+			color: red;
+		}

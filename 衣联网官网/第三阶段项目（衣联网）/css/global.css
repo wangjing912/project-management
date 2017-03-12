@@ -1,0 +1,24 @@
+
+/* CSS Document */
+/* 页面通用的设置 */
+/*字体无样式、大小12像素、设置字体为Tahoma，没有这种字体就用宋体*/
+body{font:normal 12px Tahoma,宋体;}
+/*
+样式选择器简单的
+标签选择器、类选择器、id选择器
+*/
+/*去除元素默认的外间距和内间距 这种也是复杂的样式选择器，并集选择器*/
+body,ul,ol,tr,dl,dd,form,input,h1 {margin:0px;padding:0px;}
+/*超链接整体样式设置*/
+a{color:#333;text-decoration: none;} 
+/*超链接伪类样式*/   
+a:hover {color:#ff7300;} 
+/*后代选择器，超链接直接所有的图片边框为0 这也是复杂的样式选择器
+表示<a>标签下面的图片标签，边框为0
+*/
+/*后代选择器*/		
+a img{border:0px;}
+/*所有的li的样式无*/
+ul li{list-style:none;}
+/*所有的input标签都统一为细边框 ，高度17px 高度 131px*/
+

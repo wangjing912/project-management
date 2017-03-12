@@ -1,0 +1,407 @@
+body{
+	background-color:#F1F1F1; 
+}
+
+/*导航栏顶部*/
+header #top{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	background-color: #fff;
+	/*border:1px red solid;*/
+}
+header #top #left{
+	float: left;
+}
+header #top #left #hello{
+	margin-left: 170px;
+}
+header #top #left span{
+	margin-left: 15px;
+	line-height: 30px;
+	font-size: 12px;
+	/*border:1px red solid;*/
+	/*font-weight: bold;*/
+	color: #666666;
+}
+header #top #left a,header #top #right a{
+	text-decoration: none;
+	color: #666666;
+
+}
+
+header #top #left a:hover,header #top #right a:hover{
+	color: red;
+}
+header #top #right{
+	height: 30px;
+	float: right;
+	margin-right: 130px;
+	/*border:1px blue solid;*/
+}
+header #top #right ul li{
+	float: left;
+	/*width: 75px;*/
+	margin-right: 40px;
+	list-style: none;
+	line-height: 30px;
+	font-size: 12px;
+	/*border: 1px red solid;*/
+}
+header #top #right ul li img{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+/*我的衣联*/
+header #top #mycloth{
+	position: absolute;
+	right: 685px;
+	top: 30px;
+	width: 80px;
+	height: 160px;
+	background-color: #fff;
+	line-height: 20px;
+	display: none;
+	/*border: 1px red solid;*/
+
+}
+header #top #mycloth h6 a{
+	color: black;
+	padding-left: 8px;
+	margin-top: 10px;
+}
+header #top #mycloth a{
+	display: block;
+	padding-left: 8px;
+	font-size: 12px;
+}
+/*我的收藏*/
+header #top #collect{
+	position: absolute;
+	right: 447px;
+	top: 30px;
+	width: 80px;
+	height: 80px;
+	display: none;
+	background-color: #fff;
+	/*border:1px red solid;*/
+}
+header #top #collect ul{
+	margin-top: 10px; 
+}
+header #top #collect ul li{
+	margin-top: 5px; 
+}
+header #top #collect ul li a{
+	font-size: 12px;
+	padding-left: 7px;
+}
+
+
+/*中间部分*/
+#main{
+	
+	width: 930px;
+	height: 700px;
+	border: 1px #E4E4E4 solid;
+	margin: 50px auto;
+	background: #fff;
+}
+
+#txt{
+	width: 100%;
+	height: 75px;
+	background: #F7F7F7;
+	border-bottom: 1px #E4E4E4 solid;
+}
+#txt>h1{
+	display: inline-block;
+	color: #595959;
+	margin-left: 30px; 
+	line-height: 75px;
+
+}
+#txt>p{
+	float: right;
+	margin-right: 40px; 
+	line-height: 75px;
+	color: #555;
+	
+}
+#txt>p>a{
+	color: #61A2E5;
+}
+#txt>p>a:hover{
+	text-decoration: underline;
+}
+#txt img{
+	vertical-align: middle;
+	margin-left:5px;
+	margin-right:5px;  
+}
+#box{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	/*border: 1px red solid;*/
+}
+#step{
+	width: 480px;
+	height: 60px;
+	/*border: 1px red solid;*/
+	margin: 50px auto;
+}
+#step .step{
+	width: 160px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+	border-bottom: 2px #EEEEEE solid;
+	/*border: 1px red solid;*/
+}
+#step1{
+	color: #333;
+
+}
+#step2,#step3{
+	color: #969696;
+}
+#step .step1,#step .step2,#step .step3{
+	position: relative;
+
+}
+#step1num,#step2num,#step3num{
+	position: absolute;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	font-size: 16px;
+	background: #F0F0F0;
+	top: 50px; 
+	color: #969696;
+}
+#step1num{
+	left: 70px;
+	
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	background: #D47F8D; 
+	color: #fff;
+	/*font-size: 20px;*/
+
+}
+#step2num{
+	left: 230px;
+	
+}
+#step3num{
+	left: 390px;
+
+	
+	
+}
+#step1content{
+
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 550px;
+	height: 280px;
+	/*display: none;*/
+	/*border: 1px red solid;*/
+}
+
+
+#username,#password,#yanzhenma,#inputnext{
+	/*position: relative;*/
+	padding-left:30px; 
+	width: 270px;
+	height:40px;
+	margin-top: 20px; 
+	margin-left: 88px; 
+	background: #F8F8F8;
+	border: none; 
+	outline-color: #999;
+
+}
+
+
+
+
+
+#step1content i{
+	position: absolute;
+	
+	width: 16px;
+	height: 16px;
+	z-index: 10;
+	/*border: 1px red solid;*/
+}
+
+#step1content #p1 i{
+	left: 95px;
+	top: 30px;
+	background: url(../img/login_icon_n.png) no-repeat 0 0;
+}
+#step1content #p2 #lock{
+	left: 95px;
+	top: 90px;
+	background: url(../img/login_icon_n.png) no-repeat 0 -17px;
+}
+#step1content #p3 #key{
+	left: 95px;
+	top: 153px;
+	background: url(../img/sprite.png) no-repeat -84px -45px;
+}
+#fresh{
+	width: 26px;
+	height: 26px;
+	right: 170px;
+	/*overflow: hidden;*/
+	z-index: 60;
+	top: 150px;
+	background: red;
+	/*border: 1px #333 solid;*/
+
+	background: url(../img/sprite.png) no-repeat -117px -67px;
+
+}
+/*#yanzhenma{
+	background: #fff;
+}*/
+#p3 img{
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	right: 210px;
+	top: 148px;
+	/*border: 1px red solid;*/
+}
+
+
+#checkbox{
+	width: 15px;
+	height: 15px;
+	margin: 20px 5px 0 88px;
+	vertical-align: bottom;
+	/*color: red;*/
+	
+}
+#step1content>em{
+	font-style: normal;
+	color: #666;
+}
+#step1content a{
+	color: #041441;
+}
+#step1content a:hover{
+	text-decoration:underline;
+}
+#inputnext{
+	width: 300px;
+	background: #E36576;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+#verson{
+	position: absolute;
+	left: 88px;
+	bottom: 0px;
+	width: 90%;
+	height: 100px;
+	/*border:1px red solid; */
+}
+#verson p{
+	position: absolute;
+	top: 60px;
+	left: 188px;
+	
+}
+#verson span{
+	position: absolute;
+	top: 85px;
+	left: -20px;
+	color: #666;
+}
+
+
+
+/*第二步*/
+#step2content{
+	position: absolute;
+	left: 88px;
+	top: 120px;
+	width: 400px;
+	height: 200px;
+	display: none;
+	/*border: 1px red solid;*/
+}
+#step2content>img{
+	vertical-align: middle;
+	display: inline-block;
+}
+#step2content>h3{
+	margin-top: 10px; 
+	margin-right: 190px; 
+	float: right;
+	color: #B5B5B5;
+	margin-bottom: 20px; 
+}
+#step2content span{
+	margin-left: 30px;
+	color: #666; 
+}
+#step2content>span>a{
+	margin-left: 40px; 
+	color: #B0D4F3;
+}
+#message{
+	width: 200px;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 20px;  
+}
+#resend{
+	width: 70px;
+	height: 34px;
+	margin-left: 5px; 
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+#regist{
+	margin-left: 38px; 
+	width: 287px;
+	height: 40px;
+	margin-top: 20px; 
+	background: #E26375;
+	color: #fff;
+	border: none;
+	outline-color: #E26375;
+}
+
+/*第三步*/
+.step3>p{
+	position: absolute;
+	left: 88px;
+	top: 220px;
+	/*border: 1px red solid;*/
+	font-size: 30px;
+	color: #666;
+	display: none;
+
+}
+.step3>p>a{
+	color: #52A0E5;
+
+}
+.step3>p>a:hover{
+	text-decoration: underline;
+}
+
