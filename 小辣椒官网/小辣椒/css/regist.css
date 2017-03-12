@@ -1,0 +1,203 @@
+header{
+	width: 100%;
+	height: 100px;
+	background: #ECECEC;
+}
+header>a{
+	display: block;
+	padding: 19px 0 19px 230px;
+}
+.main{
+	width: 100%;
+	height: 600px;
+	background: #F2F2F2;
+	padding-top: 70px;
+	/*border: 1px red solid;*/
+}
+
+.regist_big{
+	position: relative;
+	width: 901px;
+	height: 514px;
+	background: #F9F9F9;
+	margin:0 auto; 
+	border: 1px #D8D8D8 solid;
+	/*background: url(../img/bom_cor.png) no-repeat;*/
+}
+.regist_big>img{
+	position: absolute;
+	left: -2px;
+	top: 514px;
+}
+
+.regist_title>h4{
+	margin: 0 0 10px 30px;
+    padding-top: 20px;
+    font-size: 22px;
+    color: #d4251d;
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+}
+.regist_title>p{
+	padding: 0 0 20px 30px;
+    border-bottom: 1px dashed #E3E3E3;
+    color: #999;
+    margin-bottom: 20px;
+}
+.regist_title>p>a{
+	color: #d4251d;
+    text-decoration: underline;
+}
+.regist_table{
+	width: 85%;
+	height: 380px;
+	margin:0 auto;
+}
+.regist_table tr>td:nth-child(1){
+	width: 90px;
+	text-align: right;
+	font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+.regist_table tr>td:nth-child(2){
+	padding-left: 5px;
+	
+}
+.common{
+	position: relative;
+}
+.common>input{
+	width: 220px;
+	height: 35px;
+}
+.common a{
+	margin-left:5px;
+	color: #656D78;
+	font-size: 16px;
+}
+td>span{
+	margin-left: 5px;
+}
+.correct{
+	display: inline-block;
+	vertical-align: -4px;
+	width: 16px;
+	height: 16px;
+	background: url(../img/n.png);
+	display: none;
+}
+.correct_txt{
+	font-size: 14px;
+}
+
+/*验证码*/
+.checkcode{
+	vertical-align: 4px;
+}
+.check_code{
+	display: inline-block;
+	width: 130px;
+	height: 38px;
+	margin-left:5px;
+	/*margin-top: 10px;*/
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #dadada;
+}
+.check_code span{
+	margin-left: 5px;
+	font-size: 30px;
+}
+.check_code span:nth-child(1){
+	color: red;
+}
+.check_code span:nth-child(2){
+	color: yellow;
+}
+.check_code span:nth-child(3){
+	color: blue;
+}
+.check_code span:nth-child(4){
+	color: pink;
+}
+
+.pwd>div{
+	position: absolute;
+	left: 200px;
+	top: 13px;
+	width: 25px;
+	height: 25px;
+	background: url(../img/键盘1.png);
+	z-index: 5;
+}
+.phone>input{
+	width: 170px;
+	height: 35px;
+}
+.phone>.button{
+	display: inline-block;
+	width: 120px;
+	height: 38px;
+    border: 1px solid #dadada;
+    font-size: 14px;
+    line-height: 38px;
+    cursor: pointer;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    background: #F5F7FA;
+}
+.txt{
+	color: #999;
+	font-size: 14px;
+}
+.sure>input{
+	width: 140px;
+	height: 38px;
+	background: #D4251D;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 14px; 
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+
+}
+.txt a{
+	color: #d4251d;
+    text-decoration: underline;
+}
+input{
+	padding-left: 5px;
+}
+
+
+
+
+/*底部*/
+footer{
+	width: 100%;
+	height: 200px;
+	background: #F2F2F2;
+	/*border: 1px red solid;*/
+}
+footer p{
+	text-align: center;
+	color: #434a54;
+	line-height: 25px;
+	font-size: 14px;
+}
+.ft1{
+	width: 195px;
+	height: 43px;
+	margin: 10px auto;
+}
+.ft2{
+	width: 360px;
+	height: 50px;
+	margin: 20px auto;
+
+}
+.ft2 img{
+	margin-right: 3px;
+}
